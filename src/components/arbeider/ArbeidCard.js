@@ -4,7 +4,7 @@ function ArbeidCard({ arbeider }) {
 
     return (
       <div className={styles.arbeidCard}>
-        <img src={arbeider.featured_media_src_url}  />
+        <img src={arbeider.featured_media_src_url} alt="arbeid"  />
         <h2>{arbeider.title && arbeider.title.rendered}</h2>
       </div>
     );
