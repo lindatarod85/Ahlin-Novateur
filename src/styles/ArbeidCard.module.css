@@ -1,0 +1,19 @@
+.arbeidCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+
+}
+
+.arbeidCard img{
+    height: 300px;
+    width: 500px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+
+
+
+
