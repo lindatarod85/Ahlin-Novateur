@@ -1,7 +1,7 @@
 import styles from '../../styles/ArbeidCard.module.css';
 //import { useEffect } from 'react';
 
-/*
+
 function ArbeidCard({ arbeider }) {
   useEffect(() => {
     const linkElement = document.createElement('link');
@@ -25,20 +25,9 @@ function ArbeidCard({ arbeider }) {
 }
 
 export default ArbeidCard;
-*/
 
 
-function ArbeidCard({ arbeider }) {
-  
-  return (
-    <div className={styles.arbeidCard}>
-      
-      <h2>{arbeider.title && arbeider.title.rendered}</h2>
-    </div>
-  );
-}
 
-export default ArbeidCard;
   
 
 //<img src={arbeid.featured_image} alt={arbeid.title.rendered} />
