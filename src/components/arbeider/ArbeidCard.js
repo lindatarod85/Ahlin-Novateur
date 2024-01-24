@@ -1,5 +1,5 @@
 import styles from '../../styles/ArbeidCard.module.css';
-import { useEffect } from 'react';
+//import { useEffect } from 'react';
 
 /*
 function ArbeidCard({ arbeider }) {
